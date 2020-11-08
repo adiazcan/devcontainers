@@ -1,0 +1,13 @@
+{
+	"name": "spfx",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+	],
+	"forwardPorts": [5432,4321,35729],
+	"remoteUser": "node"
+}
