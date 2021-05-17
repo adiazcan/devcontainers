@@ -1,13 +1,13 @@
 {
-	"name": "spfx",
-	"build": {
-		"dockerfile": "Dockerfile",
+    "name": "SPFx 1.11.0",
+    "build": { "dockerfile": "Dockerfile"},
+    "remoteUser": "node",
+    "settings": { 
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        }
 	},
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-	},
-	"extensions": [
-	],
-	"forwardPorts": [5432,4321,35729],
-	"remoteUser": "node"
+    "forwardPorts": [5432,4321,35729]
 }
